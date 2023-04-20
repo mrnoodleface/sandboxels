@@ -7,7 +7,11 @@ elements.color_fish = {
 	],
     category: "life",
     temp: 37,
+    tempHigh: 42,
+    stateHigh: "meat",
     state: "solid",
     density: 1080,
     conduct: 0.2,
 };
+
+
