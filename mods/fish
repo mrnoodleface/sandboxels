@@ -1,0 +1,13 @@
+elements.color_fish = {
+    color: "ffffff",
+    behavior: [
+		"SW:"+eLists.WHL+",water%2|M2%5 AND SW:"+eLists.WHL+",water%1|XX",
+		"SW:"+eLists.WHL+",water%40|FX%0.01|BO%1", //thanks crimson.js for the movement code
+		"SW:"+eLists.WHL+",water%2 AND M2|M1|XX",
+	],
+    category: "life",
+    temp: 37,
+    state: "solid",
+    density: 1080,
+    conduct: 0.2,
+};
